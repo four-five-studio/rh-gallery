@@ -1,0 +1,69 @@
+/* Mobile Nav styles */
+@media screen and (max-width: 1020px) {
+body.responsive-nav-slide-nav.responsive-nav-side-position-fullscreen #responsive_slide_nav_wrapper .navigation ul li a, body.responsive-nav-slide-nav.responsive-nav-side-position-fullscreen #responsive_slide_nav_wrapper .navigation ul li .dropdown-btn {
+        font-size: 2.2rem;
+	font-weight: 600;
+        line-height: 3rem;
+        padding: 10px 0;
+    }
+}
+
+/* Nav links */
+
+#top_nav.navigation ul li a {
+    font-size: 106%;
+}
+
+/* Footer */
+
+#footer #artlogic {
+	display: none !important;
+  }
+
+/* Exhibition panel on home page */
+  .panel_id_520 .location {
+	display: none;	
+  }
+
+/* Artist grid on mobile */
+
+@media screen and (max-width: 459px)  {
+.panel_id_720 .records_list.image_list > ul > li {
+        width: 50% !important;
+	display: inline-block !important;
+	padding-right: 15px !important;
+	}
+    }
+
+
+/* Blockquote styling */
+
+blockquote {
+    margin: .5em 0;
+    font-size: 2rem;
+    line-height: 1.5;
+    border-left: 1px solid #009a9c;
+}
+
+
+/* Button and link styling */
+
+body .cms_button a, .share_link:not(.subnav_share_link) {
+    border: 1px solid #008183;
+    text-transform: uppercase;
+}
+
+ .mailinglist_signup_popup_link {
+	color: #008183;
+}
+
+#social_links .social_links_item a .social_media_icon, .social_media_icon {
+    background: #008183;
+}
+
+
+/* Aboriginal feature panel */
+
+.feature_panels .panel_hero .hero_heading .description {
+	max-width: 940px;
+}
